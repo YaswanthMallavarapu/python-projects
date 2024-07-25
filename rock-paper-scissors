@@ -1,3 +1,6 @@
+
+#basic rock paper scissors game using python
+
 import random
 choose=["rock","paper","scissors"]
 user_choice=input("choose rock or paper or scissors\n")
@@ -10,3 +13,4 @@ elif user_choice=="rock" and computer_choice=="scissors" or user_choice=="paper"
     print("user wins\n")
 else:
     print("computer wins\n")
+
